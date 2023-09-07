@@ -1,0 +1,38 @@
+h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 6rem;
+}
+form{
+    flex-direction: column;
+    display: flex;
+}
+.myInput{
+    font-size: medium;
+    border-radius: 15px;
+    height: 3rem;
+    width: 50%;
+    border: 3px solid black;
+    margin: 8px auto;
+    text-align: center;
+}
+.btn input{
+    font-size: medium;
+    font-weight: bold;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 126px;
+    border: 2px solid #f7f4f4;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.btn input:hover{
+    text-decoration: underline;
+    background-color: rgb(250, 246, 246);
+    color: rgb(6, 6, 6);
+    border:2px solid black;
+
+}

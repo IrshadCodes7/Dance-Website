@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Dear's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      div#logo
+        img(src="/static/img/logo.png")
+        |DDA
+      ul
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") Contact]
+         li #[a(href="/") Services]
+         li #[a(href="/") Join us]
+    section#introsection 
+      h1 Welcome to Dears Dance Acadmy
+      div.small Eat|Dance|Sleep|Repeat
+    section#missionsection 
+      h1 Our Mission 
+      div.small To Provide world class facilities for our Students
+      span
+        div.card
+         h2 Dance Perfection
+         div.cardbox
+          div.cardimg   
+           img(src="/static/img/1.png", alt="erroro")
+          div.cardcontent  
+           p This is the best dance acadmy in the world
+        div.card
+         h2 Dance the way you like
+         div.cardbox
+          div.cardimg   
+           img(src="/static/img/2.png", alt="erroro")
+          div.cardcontent  
+           p This is the best dance acadmy in the world
+        div.card
+         h2 Expert Teaching 
+         div.cardbox
+          div.cardimg   
+           img(src="/static/img/3.png", alt="erroro")
+          div.cardcontent  
+           p This is the best dance acadmy in the world
+    section#sposorsection 
+      h1 Our Sponsors 
+      div.small Thaks for helping us. Whithout you it would not be possible
+      div.spbox
+       img(src="/static/img/logo1.png", alt="error",class="spimg")
+       img(src="/static/img/logo2.png", alt="error",class="spimg")
+       img(src="/static/img/logo3.png", alt="error",class="spimg")
+       img(src="/static/img/logo4.png", alt="error",class="spimg")
+    footer#foot 
+     |CopyRight Ⓒ 2023:DearsDanceAcadmy|All Right Reserved     
+    script
+      include ../static/script.js
+    

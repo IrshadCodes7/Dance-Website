@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: ubuntu;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color:rgb(211, 87, 87);
+    padding: 2px 1px;
+}
+
+
+#navbar ul {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin-top: 13px;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    margin-top: 13px;
+    color: #f9f6f6;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+#navbar ul li a:hover {
+    color: #f2f279;
+    font-weight: bolder;
+    text-decoration: underline rgb(237, 237, 21);
+
+}
+#logo{
+    color: white;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+#introsection {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+    height: 600px;
+    background: center/cover no-repeat url("/static/bg.webp");
+}
+
+.small {
+    font-size: 25px;
+}
+
+#sposorsection {
+    color: aliceblue;
+    padding-top: 2rem;
+    text-align: center;
+    background-color:black;
+    height: 300px;
+}
+#missionsection{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding-top: 2rem;
+    text-align: center;
+    background-color:rgb(211, 87, 87);
+    height: 400px;
+}
+#missionsection span{
+    display: flex;
+}
+.cardimg img{
+    margin: 10px 10px;
+    height: 215px;
+    width: 215px;
+}
+.cardbox{
+    display: flex;
+}
+.cardcontent{
+    height: 100%;
+    width: 100%;
+    margin: 93px 8px;
+}
+.cardcontent p {
+    font-weight: bold;
+    font-size: large;
+}
+
+.card{
+    border: 2px solid black;
+    height: 256px;
+    width: 30%;
+    margin: 25px;
+    padding: 3px;
+    border-radius: 1rem;
+}
+#foot {
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color:rgb(211, 87, 87);
+    height: 50px;
+}
+.spimg{
+    height: 175px;
+    width: 175px;
+    margin: 25px 34px;
+}
+
